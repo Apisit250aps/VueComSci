@@ -6,7 +6,7 @@
                     <img src="../assets/img/contents/luca-bravo-XJXWbfSo2f0-unsplash.jpg" class="d-block img-fluid w-100"
                         alt="...">
                     <div class="carousel-caption  bg-opacity-50 bg-dark rounded-4">
-                        <h5 class="display-2">เส้นทางอาชีพสู่โปรแกรมเมอร์</h5>
+                        <h5 class="display-2">เส้นทางสู่อาชีพโปรแกรมเมอร์</h5>
                         <p class="display-6 d-none d-md-block">พัฒนาระบบเทคโนโลยีเพื่ออนาคต</p>
                     </div>
                 </div>
