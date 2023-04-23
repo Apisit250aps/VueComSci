@@ -1,40 +1,77 @@
 <template>
+    <div id="contentBox1" class="bg-gold">
+
+    </div>
     <div id="contentBox" class="bg-white">
-        <h1 class="display-3">เรียนกับเราดียังไง ?</h1>
+        <h1 class="display-3 my-1">เรียนกับเราดียังไง ?</h1>
         <div class="row">
-            <div class="col-12 col-md-6 h-100">
-                <img src="../assets/img/contents/20221101_CANVA_กยศ.png" alt="" sizes="" srcset="" class="img-fluid">
+            <div class="col-6 col-md-3 p-3" id="img-tags">
+                <img src="../assets/img/frame/frame6.png" alt="" srcset="" class="img-fluid">
+                <b class=" fs-6 d-block d-md-none my-2 my-md-4 ">สามารถกู้ กยศ. ได้ 100%</b>
+                <b class=" fs-4 d-none d-md-block my-2 my-md-4 ">สามารถกู้ กยศ. ได้ 100%</b>
             </div>
-            <div class="col-12 col-md-6 h-100">
-                <h1 class="text-center text-md-start">สามารถกู้ กยศ ได้ 100%</h1>
-                <p></p>
+            <div class="col-6 col-md-3 p-3" id="img-tags">
+                <img src="../assets/img/frame/frame5.png" alt="" srcset="" class="img-fluid">
+                <b class=" fs-6 d-block d-md-none my-2 my-md-4 ">ไกล้บ้าน ไกล้ครอบครัว</b>
+                <b class=" fs-4 d-none d-md-block my-2 my-md-4 ">ไกล้บ้าน ไกล้ครอบครัว</b>
+            </div>
+            <div class="col-6 col-md-3 p-3" id="img-tags">
+                <img src="../assets/img/frame/frame3.png" alt="" srcset="" class="img-fluid">
+                <b class=" fs-6 d-block d-md-none my-2 my-md-4 ">ฐานเงินเดือนสูง</b>
+                <b class=" fs-4 d-none d-md-block my-2 my-md-4 ">ฐานเงินเดือนสูง</b>
+            </div>
+            <div class="col-6 col-md-3 p-3" id="img-tags">
+                <img src="../assets/img/frame/frame4.png" alt="" srcset="" class="img-fluid">
+                <b class=" fs-6 d-block d-md-none my-2 my-md-4 ">ก้าวทันเทคโนโลยี</b>
+                <b class=" fs-4 d-none d-md-block my-2 my-md-4 ">ก้าวทันเทคโนโลยี</b>
             </div>
         </div>
     </div>
-    <div id="contentBox" class="bg-light">
+    <div id="contentBox" class="bg-white">
+        <h1 class="display-3 my-1">สาขาเราเรียนอะไรบ้าง ?</h1>
         <div class="row">
-            <div class="col-12 col-md-6"></div>
-            <div class="col-12 col-md-6">
-                <img src="../assets/img/contents/img-900x500-1.jpg" alt="" sizes="" srcset="" class="img-fluid">
+            <div class="col-6 col-md-3 p-3" id="img-tags">
+                <img src="../assets/img/program/programs.png" alt="" srcset="" class="img-fluid">
+                <b class=" fs-6 d-block d-md-none my-0 my-md-4 ">ได้เขียนภาษาโปรแกรมคอมพิวเตอร์มากมาย</b>
+                <b class=" fs-4 d-none d-md-block my-0 my-md-4 ">ได้เขียนภาษาโปรแกรมคอมพิวเตอร์มากมาย</b>
+            </div>
+            <div class="col-6 col-md-3 p-3" id="img-tags">
+                <img src="../assets/img/program/web.png" alt="" srcset="" class="img-fluid">
+                <b class=" fs-6 d-block d-md-none my-0 my-md-4 ">ได้พัฒนา และ ดูแลระบบ server</b>
+                <b class=" fs-4 d-none d-md-block my-0 my-md-4 ">ได้พัฒนา และ ดูแลระบบ server</b>
+            </div>
+            <div class="col-6 col-md-3 p-3" id="img-tags">
+                <img src="../assets/img/program/game.png" alt="" srcset="" class="img-fluid">
+                <b class=" fs-6 d-block d-md-none my-0 my-md-4 ">สร้างเกม 2D, 3D ด้วย Unity</b>
+                <b class=" fs-4 d-none d-md-block my-0 my-md-4 ">สร้างเกม 2D, 3D ด้วย Unity</b>
+            </div>
+            <div class="col-6 col-md-3 p-3" id="img-tags">
+                <img src="../assets/img/program/ai.png" alt="" srcset="" class="img-fluid">
+                <b class=" fs-6 d-block d-md-none my-0 my-md-4 ">เรียนรู้การพัฒนาระบบ AI เพื่ออนาคต</b>
+                <b class=" fs-4 d-none d-md-block my-0 my-md-4 ">เรียนรู้การพัฒนาระบบ AI เพื่ออนาคต</b>
             </div>
         </div>
+
     </div>
-    <div id="contentBox" class="bg-dark"></div>
+    
 </template>
 
+<!-- <VueCarousel /> -->
 <script>
+import { defineComponent } from 'vue'
+// import VueCarousel from '@/components/VueCarousel.vue'
+export default defineComponent({
+    name: "ContentComponent",
+    components: {
+        // VueCarousel,
 
-export default {
-    name:"ContentComponent",
-}
+
+    },
+    data() {
+        return {
+
+        }
+    }
+});
 
 </script>
-<style>
-#contentBox{
-    width: 100%;
-    height: 70vh;
-    padding: 1rem;
-}
-
-
-</style>

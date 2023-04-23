@@ -27,11 +27,12 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="../assets/img/contents/marvin-meyer-SYTO3xs06fU-unsplash.jpg"
-                        class="d-block img-fluid w-100" alt="...">
+                    <img src="../assets/img/contents/marvin-meyer-SYTO3xs06fU-unsplash.jpg" class="d-block img-fluid w-100"
+                        alt="...">
                     <div class="carousel-caption  bg-opacity-50 bg-dark rounded-4">
                         <h5 class="display-2">มาร่วมเป็นส่วนหนึ่งกับเรา</h5>
-                        <p class="display-6 d-none d-md-block">ยินดีต้อนรับสำหรับผู้มีความสนใจ ในด้านการพัฒนาโปรแกรมเพื่ออนาคต</p>
+                        <p class="display-6 d-none d-md-block">ยินดีต้อนรับสำหรับผู้มีความสนใจ
+                            ในด้านการพัฒนาโปรแกรมเพื่ออนาคต</p>
                     </div>
                 </div>
             </div>
@@ -52,7 +53,3 @@ export default {
 }
 </script>
 
-<style> .carousel-item>img {
-     /* align-items: center; */
- }
-</style>

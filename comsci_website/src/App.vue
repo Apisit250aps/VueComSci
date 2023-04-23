@@ -1,17 +1,19 @@
 <template>
   <NavHeader />
-  
-  <CarouselContent />
-  <ContentComponent />
-  
-  
+  <div class=" container-fluid">
+    <CarouselContent />
+    <ContentComponent />
+  </div>
+  <NavFooter />
 </template>
 
 <script>
 
 import NavHeader from '@/components/NavHeader.vue';
-import CarouselContent from '@/components/CarouselComponent.vue'
+import CarouselContent from '@/components/CarouselComponent.vue';
 import ContentComponent from '@/components/ContentComponent.vue';
+import NavFooter from '@/components/NavFooter.vue';
+
 
 
 export default {
@@ -20,8 +22,9 @@ export default {
     NavHeader,
     CarouselContent,
     ContentComponent,
+    NavFooter,
 
-    
+
   }
 }
 </script>

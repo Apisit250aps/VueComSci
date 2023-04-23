@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "owl.carousel": "^2.3.4",
+    "vue": "^3.2.13",
+    "vue3-carousel": "^0.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
