@@ -14,7 +14,7 @@
 Deploy on firebase
 
 ## Web App URL
-[comsci_sskru]([https://duckduckgo.com](https://comsci-sskru.web.app/))
+[comsci_sskru](https://comsci-sskru.web.app/).
 
 
 
