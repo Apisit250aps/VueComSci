@@ -1,9 +1,15 @@
 <template>
-    <div id="contentBox1" class="bg-gold">
-
-    </div>
+    <!-- <div id="contentBox1" class="bg-gold pe-auto text-white">
+        <div class="d-flex flex-column flex-md-row justify-content-md-between p-md-3 p-1">
+            <img src="../assets/img/university/sskrulogolg.png" alt="" srcset="" class="img-fluid">
+            <div class="text-md-end text-center">
+                <h1>สาขาวิทยาการคอมพิวเตอร์</h1>
+                <h2>มหาวิทยาลัยราชภัฏศรีสะเกษ</h2>
+            </div>
+        </div>
+    </div> -->
     <div id="contentBox" class="bg-white">
-        <h1 class="display-3 my-1">เรียนกับเราดียังไง ?</h1>
+        <h1 class="text-center display-3 my-1">เรียนกับเราดียังไง ?</h1>
         <div class="row">
             <div class="col-6 col-md-3 p-3" id="img-tags">
                 <img src="../assets/img/frame/frame6.png" alt="" srcset="" class="img-fluid">
@@ -28,7 +34,7 @@
         </div>
     </div>
     <div id="contentBox" class="bg-white">
-        <h1 class="display-3 my-1">สาขาเราเรียนอะไรบ้าง ?</h1>
+        <h1 class="text-center display-3 my-1">สาขาเราเรียนอะไรบ้าง ?</h1>
         <div class="row">
             <div class="col-6 col-md-3 p-3" id="img-tags">
                 <img src="../assets/img/program/programs.png" alt="" srcset="" class="img-fluid">
@@ -53,7 +59,6 @@
         </div>
 
     </div>
-    
 </template>
 
 <!-- <VueCarousel /> -->

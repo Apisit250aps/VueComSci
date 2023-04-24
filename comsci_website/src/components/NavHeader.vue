@@ -30,15 +30,15 @@
                         </button>
                     </div>
                     <div class="offcanvas-body">
-                        <div class="d-block">
+                        <div class="d-block py-3">
                             <a class="nav-link" target="_blank"
                                 :href="registerURL">
-                                <h5>สมัครเรียน</h5>
+                                <h5>สมัครเรียน >></h5>
                             </a>
                         </div>
                         <div class="d-block">
                             <a class="nav-link" target="_blank" :href="facebookURL">
-                                <h5>เยี่ยมชมเพจเฟซบุ๊ค</h5>
+                                <h5>เยี่ยมชมเพจเฟซบุ๊ค >></h5>
                             </a>
                         </div>
 
