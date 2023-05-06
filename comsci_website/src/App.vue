@@ -1,10 +1,5 @@
 <template>
-  <NavHeader />
-  <div class=" container-fluid">
-    <CarouselContent />
-    <ContentComponent />
-  </div>
-  <NavFooter />
+  
 </template>
 
 <script>
