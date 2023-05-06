@@ -1,23 +1,18 @@
 <template>
-  
+  <newCarousel />
 </template>
 
 <script>
 
-import NavHeader from '@/components/NavHeader.vue';
-import CarouselContent from '@/components/CarouselComponent.vue';
-import ContentComponent from '@/components/ContentComponent.vue';
-import NavFooter from '@/components/NavFooter.vue';
 
+import newCarousel from '@/components/newCarouselComponent.vue'
 
 
 export default {
   name: 'App',
   components: {
-    NavHeader,
-    CarouselContent,
-    ContentComponent,
-    NavFooter,
+    
+    newCarousel
 
 
   }
