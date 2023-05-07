@@ -1,6 +1,10 @@
 /* @import url('animations.css'); */
 @import url('fonts.css');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&amp;family=Sarabun:wght@400&amp;display=swap');
+@import url('animation.css');
+
+
+
 
 * {
     font-family: 'kanit';
@@ -139,21 +143,26 @@ footer {
     color: #E4C77F;
 }
 
+
+
 .new-carousel-container {
-    /* background-color: #e4c77f; */
     background-image: url('../img/mesh/box3.png');
+    animation: background-zoom-out 0.5s;
+    background-size: 100%;
     box-shadow: none;
     image-rendering: auto;
     width: 100%;
     height: 100%;
     padding: .5rem;
-
-    /* border-radius: 2rem; */
     box-shadow: 0rem 0rem 1rem #E4C77F;
 
 
 }
 
+.new-carousel-container:hover {
+    animation: background-zoom-in 0.5s;
+    background-size: 110%;
+}
 
 
 .btn-link {
@@ -207,3 +216,32 @@ footer {
     height: 280px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgba(0, 0, 0, .75);
+}
+
+.panel {
+    width: 512px;
+    height: 256px;
+    background-color: #E4C77F;
+    margin: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: #E4C77F 0 0 1rem;
+}
+
+.alumni {
+    margin: 1rem;
+}
+
+.alumni>img {
+    width: 330px;
+    border-radius: 1rem;
+
+    
+}
