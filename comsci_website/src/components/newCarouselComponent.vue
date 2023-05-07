@@ -6,11 +6,10 @@
                 <h2 class="text-md-start fw-semibold text-sm-start fs-1 text-center w-100">สาขาวิทยาการคอมพิวเตอร์</h2>
                 <h5 class="text-md-start text-sm-start fs-3 text-center text-white w-100">มหาวิทยาลัยราชภัฏศรีสะเกษ</h5>
             </div>
-
-
+            
             <div
                 class="col-12 col-sm-4 col-md-5 col-lg-5 d-flex flex-column align-items-md-end justify-content-center justify-content-lg-end align-items-center">
-                <a href="" class="btn-link  position-absolute rounded-4 p-2 p-sm-3 fw-semibold">สนใจสมัครเรียน >>></a>
+                <a href="" class="btn-link bg-outline-gold-in position-absolute rounded-4 p-2 p-sm-3 fw-semibold">สนใจสมัครเรียน >>></a>
             </div>
         </div>
     </div>

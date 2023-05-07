@@ -1,4 +1,4 @@
-@import url('animations.css');
+/* @import url('animations.css'); */
 @import url('fonts.css');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&amp;family=Sarabun:wght@400&amp;display=swap');
 
@@ -52,22 +52,9 @@ body {
     background-color: transparent;
 }
 
-.bg-outline-gold:hover {
-    background-color: transparent;
-    border: 1px #e4c77f solid;
-    color: #e4c77f;
-}
-
-.bg-outline-gold {
-    background-color: #e4c77f;
-    border: 1px #e4c77f solid;
-    color: white;
-}
 
 
-.bg-gold {
-    background-color: #e4c77f;
-}
+
 
 /* #img-tags {
     scale: 0.7;
@@ -143,7 +130,7 @@ footer {
 
 .new-carousel-box {
     /* padding-top: 2rem; */
-    height: 30vh;
+    height: 35vh;
     width: 100%;
 
 }
@@ -170,21 +157,14 @@ footer {
 
 
 .btn-link {
-    border: 2px solid white;
-    /* border-radius: 2rem; */
     text-decoration: none;
-    /* align-self: center; */
+    font-size: large;
     color: white;
     transform: translateY(-0.5rem);
     transform: translateX(.75rem);
 }
 
-.btn-link:hover {
-    background-color: white;
-    color: #e4c77f;
-    border: white 2px solid;
 
-}
 
 #wave {
     position: absolute;
@@ -192,3 +172,38 @@ footer {
     width: fit-content;
     left: 0;
 }
+
+.bg-outline-gold-in {
+    background-color: white;
+    color: #E4C77F;
+    border: white 2px solid;
+
+}
+
+.bg-outline-gold-in:hover {
+    background-color: #E4C77F;
+    color: white;
+
+}
+
+.bg-outline-gold-out {
+    border: white solid 2px;
+    background-color: #E4C77F;
+    color: white;
+}
+
+.bg-outline-gold-out:hover {
+    background-color: white;
+    color: #E4C77F;
+}
+
+.bs-icon {
+    border: none;
+    background-color: transparent;
+}
+
+.card>img {
+    width: 100%;
+    height: 280px;
+}
+

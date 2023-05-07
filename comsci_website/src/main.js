@@ -2,10 +2,10 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 import './assets/css/style.css'
-import './assets/css/owl.carousel.css'
-import './assets/css/owl.theme.css'
-import './assets/css/owl.transitions.css'
+// import './assets/css/owl.carousel.css'
+// import './assets/css/owl.theme.css'
+// import './assets/css/owl.transitions.css'
 import './assets/css/ResponsiveCSS/responsive.css'
-// import './assets/js/owl.carousel.min.js'
+import router from './router'
 
-createApp(App).mount('#app')
+createApp(App).use(router).mount('#app')
