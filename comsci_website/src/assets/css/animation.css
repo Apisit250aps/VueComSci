@@ -17,3 +17,23 @@
     }
     
 }
+
+@keyframes zoom-in {
+    from {
+        scale: 100%;
+    }
+    to {
+        scale: 110%;
+    }
+    
+}
+
+@keyframes zoom-out {
+    from {
+        scale: 110%;
+    }
+    to {
+        scale: 100%;
+    }
+    
+}

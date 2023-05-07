@@ -2,7 +2,7 @@
 @import url('fonts.css');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&amp;family=Sarabun:wght@400&amp;display=swap');
 @import url('animation.css');
-
+@import url('./ResponsiveCSS/responsive.css');
 
 
 
@@ -221,27 +221,24 @@ a {
     color: black;
 }
 
-a:hover{
+a:hover {
     color: rgba(0, 0, 0, .75);
 }
 
-.panel {
-    width: 512px;
-    height: 256px;
-    background-color: #E4C77F;
-    margin: 1rem;
-    border-radius: 2rem;
-    padding: 1rem;
-    box-shadow: #E4C77F 0 0 1rem;
-}
 
 .alumni {
     margin: 1rem;
+    animation: zoom-out .5s;
+}
+
+.alumni:hover {
+    position: relative;
+    scale: 110%;
+    animation: zoom-in .5s;
 }
 
 .alumni>img {
     width: 330px;
     border-radius: 1rem;
 
-    
 }
