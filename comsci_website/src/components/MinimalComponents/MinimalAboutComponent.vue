@@ -1,19 +1,75 @@
 <template>
-    <div class="container-fluid p-1 pt-2 pt-md-0 p-md-0 pt-md-5 p-lg-3 pt-lg-5">
+    <div class="container-fluid p-1 pt-3 pt-md-0 p-md-0 pt-md-5 p-lg-3 pt-lg-5" id="about">
         <h2>เกี่ยวกับเรา</h2>
         <hr>
-        <div class="m-auto row gx-0 gx-sm-3 gy-3 row-cols-1 row-cols-sm-2 p-2 ">
-            <a class="col" href="https://web.facebook.com/comsci.sskru" target="_blank">
-                <div class="card" style="">
-                    <img src="@/assets/img/university/page.png" class="img-fluid card-img-top" alt="...">
+        <div class="m-auto row g-3 row-cols-1 row-cols-md-2 p-2 ">
 
-                    <div class="card-body">
-                        <h5 class="card-title">Facebook</h5>
-                        <h6 class="card-subtitle mb-2 text-muted ">วิทยาการคอมพิวเตอร์ มหาวิทยาลัยราชภัฏศรีสะเกษ</h6>
-                        <p class="card-text">สามารถติดตามข้อมูลข่าวสาร ผลงานของนักศึกษา และ สาระดีๆจากพวกเรา</p>
+            <div class="col  row row-cols-1" hidden>
+                <button class="collapse-btn" name="aboutBachelor"    data-target="aboutBachelor" @click="collapseShow(name)">
+                    <h4>เกี่ยวกับหลักสูตร</h4>
+                </button>
+                <div class="collapse" ref="aboutBachelor" id="aboutBachelor">
+                    <div class="col ">
+                        <h5>ชื่อหลักสูตร</h5>
+                        <ul>
+                            <li>
+                                <h6>ชื่อภาษาไทย</h6>
+                                <ul>
+                                    <li>
+                                        <p>หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h6>ชื่อภาษาอังกฤษ</h6>
+                                <ul>
+                                    <li>
+                                        <p>Bachelor of Science Program in Computer Science</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>ชื่อปริญญาและสาขาวิชา </h5>
+                        <ul>
+                            <li>
+                                <h6>ชื่อเต็มภาษาไทย</h6>
+                                <ul>
+                                    <li>
+                                        <p>วิทยาศาสตรบัณฑิต (วิทยาการคอมพิวเตอร์)</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h6>ชื่อย่อภาษาไทย </h6>
+                                <ul>
+                                    <li>
+                                        <p>วท.บ. (วิทยาการคอมพิวเตอร์)</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h6>ชื่อเต็มภาษาอังกฤษ</h6>
+                                <ul>
+                                    <li>
+                                        <p>Bachelor of Science (Computer Science)</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h6>ชื่อย่อภาษาอังกฤษ</h6>
+                                <ul>
+                                    <li>
+                                        <p>B.Sc. (Computer Science)</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </a>
+            </div>
+
         </div>
     </div>
 </template>
@@ -25,16 +81,26 @@ import { defineComponent } from 'vue';
 export default defineComponent({
     name: "minimalAbout",
     components: {
-        
+
 
     },
 
     data() {
         return {
 
-
+        }
+    },
+    methods:{
+        collapseShow(e){
+            console.log(e)
         }
     }
 });
 
 </script>
+
+<style>
+li>p {
+    color: rgba(0, 0, 0, 0.65);
+}
+</style>

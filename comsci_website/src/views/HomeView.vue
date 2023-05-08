@@ -1,9 +1,10 @@
 <template>
-  <MinimalHeaderComponent />
-  <MinimalStrengthComponent />
-  <MinimalAlumniComponent />
-  <!-- <MinimalJobsComponent /> -->
-  <MinimalAboutComponent />
+  <MinimalHeaderComponent></MinimalHeaderComponent>
+  <MinimalStrengthComponent></MinimalStrengthComponent>
+  <MinimalLearnComponent></MinimalLearnComponent>
+  <MinimalJobsComponent></MinimalJobsComponent>
+  <MinimalAlumniComponent></MinimalAlumniComponent>
+  <MinimalAboutComponent></MinimalAboutComponent>
 </template>
 
 <script>
@@ -11,20 +12,22 @@
 import { defineComponent } from 'vue';
 
 import MinimalHeaderComponent from '@/components/MinimalComponents/MinimalHeaderComponent.vue';
-import MinimalAboutComponent from '@/components/MinimalComponents/MinimalAboutComponent.vue';
-// import MinimalJobsComponent from '@/components/MinimalComponents/MinimalJobsComponent.vue';
+import MinimalJobsComponent from '@/components/MinimalComponents/MinimalJobsComponent.vue';
 import MinimalAlumniComponent from '@/components/MinimalComponents/MinimalAlumniComponent.vue';
 import MinimalStrengthComponent from '@/components/MinimalComponents/MinimalStrengthComponent.vue';
+import MinimalLearnComponent from '@/components/MinimalComponents/MinimalLearnComponent.vue';
+import MinimalAboutComponent from '@/components/MinimalComponents/MinimalAboutComponent.vue';
 
 export default defineComponent({
   name: 'HomeView',
   components: {
     MinimalHeaderComponent,
-    MinimalAboutComponent,
-    // MinimalJobsComponent,
+    MinimalJobsComponent,
     MinimalAlumniComponent,
-    MinimalStrengthComponent
-    
+    MinimalStrengthComponent,
+    MinimalLearnComponent,
+    MinimalAboutComponent,
   }
 });
 </script>
+
