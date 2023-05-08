@@ -1,9 +1,11 @@
 <template>
   <MinimalHeaderComponent></MinimalHeaderComponent>
+  <MinimalApplyingComponent></MinimalApplyingComponent>
   <MinimalStrengthComponent></MinimalStrengthComponent>
   <MinimalLearnComponent></MinimalLearnComponent>
   <MinimalJobsComponent></MinimalJobsComponent>
   <MinimalAlumniComponent></MinimalAlumniComponent>
+  <!-- <MinimalContactsComponent></MinimalContactsComponent> -->
   <MinimalAboutComponent></MinimalAboutComponent>
 </template>
 
@@ -17,6 +19,9 @@ import MinimalAlumniComponent from '@/components/MinimalComponents/MinimalAlumni
 import MinimalStrengthComponent from '@/components/MinimalComponents/MinimalStrengthComponent.vue';
 import MinimalLearnComponent from '@/components/MinimalComponents/MinimalLearnComponent.vue';
 import MinimalAboutComponent from '@/components/MinimalComponents/MinimalAboutComponent.vue';
+// import MinimalContactsComponent from '@/components/MinimalComponents/MinimalContactsComponent.vue';
+import MinimalApplyingComponent from '@/components/MinimalComponents/MinimalApplyingComponent.vue';
+
 
 export default defineComponent({
   name: 'HomeView',
@@ -27,6 +32,8 @@ export default defineComponent({
     MinimalStrengthComponent,
     MinimalLearnComponent,
     MinimalAboutComponent,
+    // MinimalContactsComponent,
+    MinimalApplyingComponent,
   }
 });
 </script>

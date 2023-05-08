@@ -3,7 +3,7 @@
         <div class=" text-black row m-auto new-carousel-container rounded-5 p-3">
             <div
                 class="col-12 col-sm-8 col-md-7 col-lg-7 d-flex flex-column text-white justify-content-start justify-content-sm-center align-items-center">
-                <h1 class="text-md-start fw-semibold text-sm-start fs-2 text-center w-100">สาขาวิทยาการคอมพิวเตอร์</h1>
+                <h1 class="text-md-start fw-semibold text-sm-start fs-1 text-center w-100">สาขาวิทยาการคอมพิวเตอร์</h1>
                 <h5 class="text-md-start text-sm-start fs-3 text-center text-white w-100">มหาวิทยาลัยราชภัฏศรีสะเกษ</h5>
             </div>
 

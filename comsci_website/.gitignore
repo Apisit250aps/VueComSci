@@ -25,7 +25,6 @@ pnpm-debug.log*
 .firebase
 .github
 data
-dist
 
 img
 
