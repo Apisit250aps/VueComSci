@@ -1,0 +1,12 @@
+.firebase
+
+dist
+
+/img
+
+.vscode
+
+*firebase
+*.jpg
+*.png
+*.jpeg
