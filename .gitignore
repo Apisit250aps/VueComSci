@@ -1,6 +1,7 @@
-.firebase
+/.firebase
+/.github
 
-dist
+/dist
 
 /img
 
