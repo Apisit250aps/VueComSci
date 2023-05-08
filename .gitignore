@@ -1,11 +1,11 @@
-.firebase/
-.github/
+.firebase
+.github
+data
+dist
 
-dist/
+img
 
-img/
-
-.vscode/
+.vscode
 
 *firebase
 *.jpg

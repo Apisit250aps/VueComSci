@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /dist
-
+/src/assets/img
 
 # local env files
 .env.local
@@ -21,3 +21,18 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+.firebase
+.github
+data
+dist
+
+img
+
+.vscode
+
+*firebase
+*.jpg
+*.png
+*.jpeg
+
