@@ -1,9 +1,2 @@
-.firebase
-.github
-img
 .vscode
-
-*firebase
-*.jpg
-*.png
-*.jpeg
+data

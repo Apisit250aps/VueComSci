@@ -22,16 +22,6 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-.firebase
-.github
-data
-
-img
 
 .vscode
-
-*firebase
-*.jpg
-*.png
-*.jpeg
 
