@@ -3,8 +3,18 @@
     <img src="@/assets/img/university/sskrulogolg.png" alt=""  srcset="" class="bg-university img-fluid m-auto">
   </div>
   <router-view />
+  <MinimalContactsComponent />
 </template>
 
-<style>
+<script>
 
-</style>
+import MinimalContactsComponent from './components/MinimalComponents/MinimalContactsComponent.vue';
+
+export default {
+  name:"AppComponent",
+  components:{
+    MinimalContactsComponent
+  }
+}
+
+</script>

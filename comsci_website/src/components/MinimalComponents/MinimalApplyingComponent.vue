@@ -10,7 +10,7 @@
                         <div class="col">
                             <ul style="list-style: none;">
                                 <li>
-                                    <b>จบการศึกษาในระดับ</b>
+                                    <b class="fs-5">จบการศึกษาในระดับ</b>
                                     <ul>
                                         <li>มัธยมศึกษาตอนปลาย</li>
                                         <li>ปวช. ปวส.</li>
@@ -22,19 +22,16 @@
                     </div>
                 </div>
                 <div class="col">
-                    <h3 class=" opacity-0 d-none d-md-block"><span>#</span></h3>
+                    <h3 class="fw-semibold">#สอบถามเพิ่มเติม</h3>
                     <div class="m-auto row row-cols-1 gx-5">
                         <div class="col">
                             <ul style="list-style: none;">
                                 <li>
-                                    <b>สอบถามข้อมูลเพิ่มเติม</b>
-                                    <ul>
-                                        <li>Facebook</li>
-                                        <li>Line</li>
-                                        
-                                    </ul>
+                                    <img src="@/assets/img/qrcode/S_gainfriends_2dbarcodes_GW.png" alt=""
+                                        class="img-fluid w-75 mx-auto">
                                 </li>
                             </ul>
+
                         </div>
                     </div>
                 </div>
@@ -47,10 +44,10 @@
                 <div class="col p-2">
                     <img src="@/assets/img/qrcode/code(1).png" alt="" class="img-fluid rounded-2 border shadow m-auto">
                 </div>
-
-
             </div>
+
         </div>
+
     </div>
 </template>
   
