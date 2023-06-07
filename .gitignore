@@ -1,3 +1,7 @@
 .vscode
 data
+.firebase
 .firebase/
+firebase.json
+
+*.cache
