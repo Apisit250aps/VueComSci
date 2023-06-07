@@ -30,6 +30,9 @@
             <div class="alumni panel">
                 <img src="@/assets/img/Alumni/alumni(9).jpg" alt="" srcset="" class="img-fluid">
             </div>
+            <div class="alumni panel">
+                <img src="@/assets/img/Alumni/alumni(10).jpg" alt="" srcset="" class="img-fluid">
+            </div>
             <template #viewport>
                 <div class="flicking-pagination"></div>
             </template>
