@@ -3,7 +3,7 @@
         <h1>เปิดรับสมัครนักศึกษา ในระดับปริญญาตรี</h1>
         <hr>
         <div class="row row-cols-1 m-auto row-cols-md-2 g-3">
-            <div class="col row-cols-1 m-auto">
+            <div class="col row row-cols-1 row-cols-lg-2 m-auto">
                 <div class="col">
                     <h3 class="fw-semibold">#คุณสมบัติผู้สมัคร</h3>
                     <div class="m-auto row row-cols-1 gx-5">
@@ -36,7 +36,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col row m-auto g-3 row-cols-2">
                 <div class="col p-2">
                     <img src="@/assets/img/qrcode/code(2).png" alt="" class="img-fluid rounded-2 border shadow m-auto">
