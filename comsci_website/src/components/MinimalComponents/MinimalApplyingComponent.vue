@@ -3,7 +3,7 @@
         <h1>เปิดรับสมัครนักศึกษา ในระดับปริญญาตรี</h1>
         <hr>
         <div class="row row-cols-1 m-auto row-cols-md-2 g-3">
-            <div class="col row m-auto">
+            <div class="col row-cols-1 m-auto">
                 <div class="col">
                     <h3 class="fw-semibold">#คุณสมบัติผู้สมัคร</h3>
                     <div class="m-auto row row-cols-1 gx-5">
