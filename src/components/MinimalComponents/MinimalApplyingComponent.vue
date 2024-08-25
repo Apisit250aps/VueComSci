@@ -36,12 +36,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col row m-auto g-3 row-cols-2">
+            <div class="col row m-auto g-3 row-cols-1 row-cols-md-3">
                 <div class="col p-2">
-                    <img src="/src/assets/img/qrcode/code(2).png" alt="" class="img-fluid rounded-2 border shadow m-auto">
+                    <img src="../../../public/Line.png" alt="" class="img-fluid rounded-2 border shadow m-auto">
                 </div>
                 <div class="col p-2">
-                    <img src="/src/assets/img/qrcode/code(1).png" alt="" class="img-fluid rounded-2 border shadow m-auto">
+                    <img src="../../../public/FacebookLogo.png" alt="" class="img-fluid rounded-2 border shadow m-auto">
+                </div>
+                <div class="col p-2">
+                    <img src="../../../public/TItok.png" alt="" class="img-fluid rounded-2 border shadow m-auto">
                 </div>
             </div>
 

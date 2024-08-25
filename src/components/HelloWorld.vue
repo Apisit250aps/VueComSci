@@ -5,9 +5,7 @@
   <MinimalHeaderComponent></MinimalHeaderComponent>
   <MinimalApplyingComponent></MinimalApplyingComponent>
   <hr>
-  <div class="py-3 d-flex flex-row justify-content-center">
-    <a href="/about" style="text-decoration:underline;">เกี่ยวกับหลักสูตร >>></a>
-  </div>
+  
   <MinimalStrengthComponent></MinimalStrengthComponent>
   <MinimalLearnComponent></MinimalLearnComponent>
   <MinimalJobsComponent></MinimalJobsComponent>

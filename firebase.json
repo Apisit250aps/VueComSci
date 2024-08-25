@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "comsci_website/dist",
+    "public": "/dist",
     "ignore": [
       "firebase.json",
       "**/.*",
