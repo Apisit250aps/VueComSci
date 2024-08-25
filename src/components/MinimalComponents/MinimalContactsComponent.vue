@@ -3,7 +3,7 @@
         <h2>ติดต่อเรา</h2>
         <hr>
         <div class="logo">
-            <img src="@/assets/img/university/sskro-logo-contact.png" alt="" class="img-fluid">
+            <img src="/src/assets/img/university/sskro-logo-contact.png" alt="" class="img-fluid">
         </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 m-auto">
             <div class="col">
@@ -87,7 +87,7 @@
             <div class="col">
                 <div class="row row-cols-1 m-auto my-3">
                     <div style="list-style: none;" class="mt-3 d-flex justify-content-center mx-auto">
-                        <img src="@/assets/img/qrcode/M_gainfriends_2dbarcodes_GW.png" alt="" class="img-fluid w-50">
+                        <img src="/src/assets/img/qrcode/M_gainfriends_2dbarcodes_GW.png" alt="" class="img-fluid w-50">
                     </div>
                 </div>
             </div>

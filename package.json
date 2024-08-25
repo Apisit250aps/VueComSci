@@ -1,0 +1,21 @@
+{
+  "name": "comsci_sskru",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.37",
+    "@egjs/flicking-plugins": "^4.7.0",
+    "@egjs/vue-conveyer": "^1.4.8",
+    "@egjs/vue3-flicking": "^4.10.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.1"
+  }
+}

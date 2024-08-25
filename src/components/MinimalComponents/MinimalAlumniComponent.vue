@@ -4,34 +4,34 @@
         <hr>
         <Flicking ref="flicking2" :options="options" :plugins="plugins" class="p-3" >
             <div class="alumni panel">
-                <img src="@/assets/img/Alumni/alumni(1).jpg" alt="" srcset="" class="img-fluid">
+                <img src="/src/assets/img/Alumni/alumni(1).jpg" alt="" srcset="" class="img-fluid">
             </div>
             <div class="alumni panel">
-                <img src="@/assets/img/Alumni/alumni(2).jpg" alt="" srcset="" class="img-fluid">
+                <img src="/src/assets/img/Alumni/alumni(2).jpg" alt="" srcset="" class="img-fluid">
             </div>
             <div class="alumni panel">
-                <img src="@/assets/img/Alumni/alumni(3).jpg" alt="" srcset="" class="img-fluid">
+                <img src="/src/assets/img/Alumni/alumni(3).jpg" alt="" srcset="" class="img-fluid">
             </div>
             <div class="alumni panel">
-                <img src="@/assets/img/Alumni/alumni(4).jpg" alt="" srcset="" class="img-fluid">
+                <img src="/src/assets/img/Alumni/alumni(4).jpg" alt="" srcset="" class="img-fluid">
             </div>
             <div class="alumni panel">
-                <img src="@/assets/img/Alumni/alumni(5).jpg" alt="" srcset="" class="img-fluid">
+                <img src="/src/assets/img/Alumni/alumni(5).jpg" alt="" srcset="" class="img-fluid">
             </div>
             <div class="alumni panel">
-                <img src="@/assets/img/Alumni/alumni(6).jpg" alt="" srcset="" class="img-fluid">
+                <img src="/src/assets/img/Alumni/alumni(6).jpg" alt="" srcset="" class="img-fluid">
             </div>
             <div class="alumni panel">
-                <img src="@/assets/img/Alumni/alumni(7).jpg" alt="" srcset="" class="img-fluid">
+                <img src="/src/assets/img/Alumni/alumni(7).jpg" alt="" srcset="" class="img-fluid">
             </div>
             <div class="alumni panel">
-                <img src="@/assets/img/Alumni/alumni(8).jpg" alt="" srcset="" class="img-fluid">
+                <img src="/src/assets/img/Alumni/alumni(8).jpg" alt="" srcset="" class="img-fluid">
             </div>
             <div class="alumni panel">
-                <img src="@/assets/img/Alumni/alumni(9).jpg" alt="" srcset="" class="img-fluid">
+                <img src="/src/assets/img/Alumni/alumni(9).jpg" alt="" srcset="" class="img-fluid">
             </div>
             <div class="alumni panel">
-                <img src="@/assets/img/Alumni/alumni(10).jpg" alt="" srcset="" class="img-fluid">
+                <img src="/src/assets/img/Alumni/alumni(10).jpg" alt="" srcset="" class="img-fluid">
             </div>
             <template #viewport>
                 <div class="flicking-pagination"></div>

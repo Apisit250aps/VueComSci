@@ -27,7 +27,7 @@
                         <div class="col">
                             <ul style="list-style: none;">
                                 <li>
-                                    <img src="@/assets/img/qrcode/S_gainfriends_2dbarcodes_GW.png" alt=""
+                                    <img src="/src/assets/img/qrcode/S_gainfriends_2dbarcodes_GW.png" alt=""
                                         class="img-fluid w-75 mx-auto">
                                 </li>
                             </ul>
@@ -38,10 +38,10 @@
             </div>
             <div class="col row m-auto g-3 row-cols-2">
                 <div class="col p-2">
-                    <img src="@/assets/img/qrcode/code(2).png" alt="" class="img-fluid rounded-2 border shadow m-auto">
+                    <img src="/src/assets/img/qrcode/code(2).png" alt="" class="img-fluid rounded-2 border shadow m-auto">
                 </div>
                 <div class="col p-2">
-                    <img src="@/assets/img/qrcode/code(1).png" alt="" class="img-fluid rounded-2 border shadow m-auto">
+                    <img src="/src/assets/img/qrcode/code(1).png" alt="" class="img-fluid rounded-2 border shadow m-auto">
                 </div>
             </div>
 

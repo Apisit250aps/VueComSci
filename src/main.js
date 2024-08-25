@@ -12,12 +12,11 @@ import './assets/css/style.css'
 // import './assets/css/owl.theme.css'
 // import './assets/css/owl.transitions.css'
 // import './assets/css/ResponsiveCSS/responsive.css'
-import router from './router'
 
 
 
 const app = createApp(App)
 app.component("FlickingComponent", Flicking)
-app.use(router)
+
 app.mount('#app')
 

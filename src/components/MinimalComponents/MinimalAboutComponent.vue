@@ -6,16 +6,16 @@
             
                 <Flicking ref="flicking3" :options="{ circular: true, horizontal: true }" :plugins="plugins" class="col" style="width: 50%;">
                     <div class="weather-panel">
-                        <img src="@/assets/img/contacts/contact1.png" class="img-fluid">
+                        <img src="/src/assets/img/contacts/contact1.png" class="img-fluid">
                     </div>
                     <div class="weather-panel">
-                        <img src="@/assets/img/contacts/contact2.png" class="img-fluid">
+                        <img src="/src/assets/img/contacts/contact2.png" class="img-fluid">
                     </div>
                     <div class="weather-panel">
-                        <img src="@/assets/img/contacts/contact3.png" class="img-fluid">
+                        <img src="/src/assets/img/contacts/contact3.png" class="img-fluid">
                     </div>
                     <div class="weather-panel">
-                        <img src="@/assets/img/contacts/contact4.png" class="img-fluid">
+                        <img src="/src/assets/img/contacts/contact4.png" class="img-fluid">
                     </div>
                     
                 </Flicking>
